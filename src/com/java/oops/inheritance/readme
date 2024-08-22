@@ -1,0 +1,25 @@
+Multiple inheritance:
+
+public class A {..........}
+public class B {..........}
+public class C extends A, B {..........}    //Java does not support multiple Inheritance
+
+A very important fact to remember is that Java does not support multiple inheritance. This means that a class cannot extend more than one class.
+
+Therefore following is illegal −
+Example
+public class extends Animal, Mammal{}
+
+However, a class can implement one or more interfaces,
+which has helped Java get rid of the impossibility of multiple inheritance.
+
+
+Hybrid inheritance:
+Hybrid inheritance is a combination of more than two types of inheritances single and multiple.
+It can be achieved through interfaces only as multiple inheritance is not supported by Java.
+It is basically the combination of simple, multiple, hierarchical inheritances.
+
+public class A {..........}
+public class B extends A {..........}
+public class C extends A {..........}
+public class D extends B, C {..........}    //Java does not support multiple Inheritance

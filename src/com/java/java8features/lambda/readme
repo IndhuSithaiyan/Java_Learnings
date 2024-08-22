@@ -1,0 +1,60 @@
+Functional Interface
+- A functional interface is an interface that contains only one abstract method
+- They can have only one functionality to exhibit
+- Lambda expressions are used to represent the instance of a functional interface
+- Runnable, ActionListener, comparable are some of the example of functional interfaces
+- can contain default and static methods
+
+Pillers
+- Consumer - no return
+- Predicate - returning boolean
+- Function -
+- Supplier - not accept input,
+
+
+Lambda Expression
+
+() - Input Argument (no argument, one or more)
+-> - token
+() - Body
+
+why -> when comes functional programming aspects
+what -> Anonymous(nameless) Functions / closures
+how ->
+normal method
+
+public void test(){
+        System.out.println("test");
+}
+
+1. remove method name
+public void (){
+        System.out.println("test");
+}
+
+2. remove return type
+public (){
+        System.out.println("test");
+}
+
+3. remove access modifiers and the add ->
+() -> {
+        System.out.println("test");
+}
+
+If function is have args,
+public void test(int a, int b){
+        System.out.println("test");
+}
+
+write like this,
+(int a, int b) -> {
+        System.out.println("test");
+}
+
+remove arg return types
+(a, b) -> {
+        System.out.println("test");
+}
+
+now we have lambda expression, but to run this function we need functional Interface which is the class annotated with @FunctionalInterface

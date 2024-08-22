@@ -1,0 +1,68 @@
+collections
+
+collections is a group of objects as a single unit or entity
+
+Collection Interface hierarchy
+List Interface
+    ArrayList
+    LinkedList
+    Vector
+    Stack (it extents vector class)
+    these are the concrete implementation of List Interface
+Queue Interface
+    PriorityQueue (is the most common implementation of Queue Interface)
+    Deque (which extends Queue Interface)
+    ArrayDeque (this implementation class which implements Deque Interface)
+Set Interface
+    HashSet
+    LinkedHashSet
+    these are the two implementation of Set Interface
+ ->SortedSet (Interface - the purpose of sorting the elements in Ascending & descending order)
+    TreeSet (we have the SortedSet implementation)
+
+
+Map hierarchy
+
+Map Interface (It has key-value pair)
+    HashMap (Most commonly used class which implements Map Interface)
+    LinkedHashMap
+    Hashtable (legacy class hierarchy in collection framework hierarchy)
+ ->SortedMap (Interface- the purpose of sorting is to sort the key-value pair)
+    TreeMap (which Implements sorted Maps)
+
+Object class
+->Array (extends)
+->Iterator (extends)
+
+Collection Interface:
+Collection Interface is the root Interface of Collection hierarchy
+whenever we want to represent the group of individual objects as a single unit or entity then we can go for collection
+It doesn't have direct implementation List, Set, Queue extends Collection Interface
+
+
+Advantages of CollectionsFramework
+- It reduce programming effort
+- provides in-build methods & class
+- Optimized & Highly performance
+- Increase Productivity
+- Reduce Operational time
+- Interoperatability
+
+Common methods
+add()
+addAll()
+remove()
+removeAll()
+size()
+clear()
+contains()
+containsAll()
+retain()
+retainAll()
+
+Common Exceptions in collection framework
+Null PointerException - whenever your object is null or your null reference are having no reference
+ClassCastException - whenever you covert a down casting
+IllegalArgumentException - whenever you are going to pass invalid argument
+IllegalStateException
+UnSupportedOperationException - when particular collection cannot be modified

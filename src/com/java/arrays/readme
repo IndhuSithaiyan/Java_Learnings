@@ -1,0 +1,19 @@
+what is Array
+--------------
+An Array is a collection of the data types either it can be primitives or objects or even complex data types
+whatever you want to store you can store it in an Array
+
+syntax
+datatype[] var_name = new dataType[size]
+int[] num = new int[5]
+
+or directly
+int[] num = {1,2,3,45}
+
+Stack Memory
+primitive(like int, char, bool, float...) & reference variables are store in stack
+compile time(static or fixed memory allocation)
+
+Heap Memory
+Objects(like String, your own object class...) are stores in heap
+Run time(dynamic memory allocation)

@@ -1,0 +1,9 @@
+Super Keyword
+
+3 use cases of super keyword in java
+
+To access the data members of parent class when both child and parent class have member with same name
+To access the method of parent class when child class has overridden that menthod.
+To explicitly call the no-arg and parameterized constructor of parent class.
+
+super & this keyword will work only in non-static methods

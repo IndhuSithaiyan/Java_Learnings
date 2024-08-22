@@ -1,0 +1,8 @@
+Abstraction
+Hiding the unnecessary details and showing valuable information
+
+What is a real world example of encapsulation and abstraction?
+Real-World Example
+In a car, the abstraction is the steering wheel and pedals;
+you don't need to know how the engine works. The car's engine encapsulates its internal workings;
+you interact with it through the car's controls without accessing the engine directly

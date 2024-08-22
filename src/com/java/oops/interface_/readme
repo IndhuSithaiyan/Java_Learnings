@@ -1,0 +1,16 @@
+Uses of Interfaces in Java are mentioned below:
+
+It is used to achieve total abstraction.
+Since java does not support multiple inheritances in the case of class, by using an interface it can achieve multiple inheritances.
+Any class can extend only 1 class, but can any class implement an infinite number of interfaces.
+It is also used to achieve loose coupling.
+Interfaces are used to implement abstraction.
+
+why use interfaces when we have abstract classes?
+
+The reason is, abstract classes may contain non-final variables, whereas variables in the interface are final, public, and static.
+
+- In Interface only one specifier is used- Public.
+- The interface cannot contain concrete (with implementation) methods.
+- Interface abstract methods cannot have body
+- In an interface, you can’t instantiate variables and create an object.

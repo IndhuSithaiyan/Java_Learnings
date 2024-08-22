@@ -1,0 +1,6 @@
+HashMap
+- Java HashMap is a Hash table based implementation of Java Map interface
+- A HashMap cannot contain duplicate keys, If keys are same then it will replace the existing one
+- Java HashMap allows null values & null keys
+- HashMap is unordered collection. it doesn't guarantee any specific order of the element
+- Java HashMap is not thread-safe. you must explicitly synchronize concurrent modifications to the HashMap

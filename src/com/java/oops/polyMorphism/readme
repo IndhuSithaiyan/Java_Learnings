@@ -1,0 +1,18 @@
+polymorphism
+poly - many
+morphism - ways to represent
+Act of representing the same thing in multiple ways
+
+types:
+1. CompileTime/static polymorphism - Achieved via method overloading
+Method overloading - when a class has multiple methods with the same name but type, arguments, return types can be different
+Method name should be same. we can differ the arguments number & return types.
+example: multiple constructor
+2. RunTime/Dynamic polymorphism - Achieved via method overriding
+Method overriding - when a child class with the method name has the same as the parent class but body can be different
+Method name should be same. we can differ by the objects which is calling the method
+
+Parent obj = new Child();
+// here reference is created for parent but the object is refers to Child class
+// here if any overridden method is there than that will be executed
+which method will be called depends on the object(which is with new keyword right hand side). This is known as upcasting.

@@ -1,0 +1,60 @@
+List
+-----
+List is an ordered collection it maintain the insertion order, which means upon displaying the list content it will display the elements in the same
+order in which they got inserted into the list.
+Java List provides control over the position where you can insert an element.
+You can access elements by their index and also search elements in the list.
+List allows you to add duplicate elements.
+List allows you to have 'null' elements.
+List indexes starts from 0, just like arrays.
+Some of the most used List implementation classes are ArrayList, LinkedList, Vector, Stack,
+CopyOnWriteArrayList.
+
+
+ArrayList Class Overview
+------------------------
+An ArrayList is a re-sizable array, also called a dynamic array. It grows its size to accommodate new elements and shrinks the size when the elements are
+removed.
+ArrayList internally uses an array to store the elements. Just like arrays, It allows you to retrieve the elements by their index.
+Java Arraylist allows duplicate and null values.
+Java ArrayList is an ordered collection. It maintains the insertion order of the elements.
+You cannot create an ArrayList of primitive types like int, char etc. You need to use boxed types like Integer,
+Character, Boolean etc.
+Java ArrayList is not synchronized. If multiple threads try to modify an ArrayList at the same time, then the final outcome will be non-deterministic.
+you must explicitly synchronize access to an ArrayList if multiple threads are gonna modify it.
+
+
+LinkedList Class Overview
+-------------------------
+Java LinkedList class can contain duplicate elements
+Java LinkedList class maintains insertion order
+The LinkedList class implements Queue and Deque interface. Therefore, It can also be used as a Queue, Deque & Stack
+Java LinkedList is not thread-safe. You must explicitly synchronize concurrent modifications to the LinkedList in a
+multi-threaded environment.
+
+
+Difference between ArrayList & LinkedList
+ArrayList
+- ArrayList internally uses a dynamic arrays to store the elements
+- Manipulation with ArrayList is slow because it internally uses an array. If any elements is removed from the array, all the bits
+are shifted in memory
+- ArrayList consumes less memory than Linkedlist
+- An ArrayList class can act as a list only because it implements list only
+- ArrayList is better for storing and accessing the data
+
+LinkedList
+- LinkedList internally uses a doubly linked list to store the elements
+- Manipulation with LinkedList is faster than ArrayList because it internally uses a doubly linked list, so no bits
+shifting is required in memory
+- LinkedList consumes more memory than Arraylist because it also store the next and previous reference along with the data
+- LinkedList class can act as a list and Queue both because it implements list & Deque interface
+- LinkedList is better for manipulating the data
+
+similarity between Arraylist & LinkedList
+- contains duplicate elements
+- maintain the insertion order
+- contains null values
+
+when to use ArrayList & LinkedList ?
+Whenever you want to perform insertion & remove operation at the middle of the collection - use LinkedList
+retrieval operations - ArrayList
